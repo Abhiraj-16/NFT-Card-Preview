@@ -1,0 +1,51 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+}
+
+.box-one{
+    justify-content: center;
+    align-items: center;
+    
+    
+    min-width: 375px;
+    max-width: 1440px;
+    height: 600px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 15px;
+    padding-left: 25px;
+
+    
+    
+
+}
+
+.nft{
+    width: 325px;
+    height: 300px;
+    margin-top: 25px;
+    border-radius: 10px;
+}
+
+h4{
+    color: hsl(0, 0%, 100%);
+    font-size: x-large;
+  
+    
+    
+}
+
+p{
+    color: hsl(215, 51%, 70%);
+    font-size: 18px;
+    font-weight: 400;
+}
